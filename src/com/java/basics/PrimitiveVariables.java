@@ -1,47 +1,55 @@
-package com.java.basics;//package declaration is must and package naming convention
+package com.java.basics;
 
-//comments
-//R1 :: All of your code should be inside class
-//R2 :: class Name and file name should EXACTLY be same
+public class PrimitiveVariables {
+//MTT
+	public static void main(String[] args) {
 
+//		[]-2 ^ n-1]  to [2 ^n-1]    - 1   ==> Range Formula
 
-//multiline comment
-/*Java Basics 
-is must*/ 
+//		TODO write the range of each of the 4 integer data type in a numercal format
 
-//class name should be in PascalCase
-class PrimitiveVariables {// Source Code
-//HLL - high Level Language
+//		1. integers
+		byte a = 127;// 1bytes = 8bits
+		short b = 989;// 2 bytes = 16 bits
+		int c = 9867;// 4 bytes
+		long d = 8675890;// 8 bytes
+		long phoneNumber = 9006567388L;//2s complement
 
-	public static void main(String [] args) {// main fn/mthods
-		//Rules
-		//Conventions
-		
-		//keywords  :: resreved words
-		
-		
-		int x = 9;//variable name is x 
-//		R3:: variable names should not be a keyword ; should not start wityyh a number; you can have _ $ only; length of variable name can be any long
-	
-		int valueOfADozen =12;//C1 :: varibakle names should be camelCase and informative
-		System.out.print("Hello World :)" + x);
-		
-//		DataTypes
-		
-		
-		
-		//Primitve DataTypes
-		
-		
-//		integers
-		
-//		decimals/flating poing names
-		
-//		char 
-		
-//		boolean true/false
+//		2. decimals
+		float pi = 3.14159f;// 4 bytes = 32 bits
+		double piValue = 3.14159;// 64 bits
 
-
+//		3. char
+		char ch = 'a';
+		System.out.println((int) ch);
+		
+//		4. boolean
+		boolean isJavaEasy = true;//1 bit
+		
+		int x = 78997;
+//		short sh  = x;
+		
+		float fl = phoneNumber;//IEEE format
+//		long sh  = x;
+//		System.out.println(sh);
+		
+		
+		/* Decimal Numbers : 10 symbols  [0 to 9]
+		 * Octal : 8 symbols [0  to 7]
+		 * Hexadecimal : 16 symbols [0 to 9 U A to F]
+		 * Binary : 2 symbols [0 and 1]
+		 * 
+		 * */
+		
+//		TODO
+		int oct = 05363;//0 octal
+		System.out.println(oct);//2803
+		
+		int binary = 0b101010;//0B stands for binary
+		System.out.println(binary);
+		
+		long hexadecimal = 0X9708AB;//0X stands for hex
+		System.out.println(hexadecimal);
 		
 		
 		
@@ -49,26 +57,3 @@ class PrimitiveVariables {// Source Code
 	}
 
 }
-
-
-//TODO
-//Install the Jdk
-//Run the Java code through command line
-// Run the same code in Eclipse
-//Make a account on Github
-
-
-
-
-/* Cases
- * 
- * tomandjerry :: lowercase/smallcase
- * TOMANDJERRY :: UPPERCASE/CAPITALCASE
- * tomAndJerry :: camelCase *variable names and fn/methods name
- * tom_and_jerry :: snake_case
- * TOM_AND_JERRY :: CAPITAL_SNAKE CASE* CONSTANTS
- * TomAndJerry :: PascalCase*
- * tom-and-jerry :: kebab case 
- *  
- *  
- */
