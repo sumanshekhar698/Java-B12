@@ -1,4 +1,4 @@
-package com.java.oops.static_conccept;
+package com.java.oops.static_concept;
 
 public class Main {
 
